@@ -1,0 +1,76 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-family: Noto Sans, sans-serif;
+}
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 15px;
+    font-family: Noto Sans, sans-serif;
+    color: #FFFFFF;
+}
+.container {                     #текст
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.boosts {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 100%;
+    font-family: Noto Sans, sans-serif;
+    color: #FFFFFF;
+}
+.dean {
+    cursor: pointer;
+    width: 30%;
+    position: absolute;
+    left: 500px;
+    right: 300px;
+    top: 150px;
+    bottom: 200px;
+}
+
+body {
+    background-color: #500000;
+}
+
+.boost {
+    cursor: pointer;
+    background-color: #556B2F;
+    color: #FFFFFF;
+}
+
+.st {
+    border: 1px outset black;
+    background-color: #8B0000;
+    text-align: center;
+    width: 30%;
+    height: 40px;
+    display: block;
+    padding-top: 15px;
+}
+
+.did {
+    border: 1px outset black;
+    background-color: #556B2F;
+    text-align: center;
+    width: 35%;
+    height: 40px;
+    display: block;
+    padding-top: 20px;
+}

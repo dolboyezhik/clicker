@@ -1,6 +1,8 @@
+{% load static %}
 <html lang="en">
 <head>
-    <title>Регистрация в лучшем кликере</title>
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
 </head>
 <body>
     <h1>Регистрация</h1>
@@ -12,6 +14,6 @@
         {{ form.as_p }}
         <input type="submit">
     </form>
-    <a href="{% url 'login' %}">Зарегистрирован?</a>
+    {% comment %} <a href="{% url 'login' %}">Уже зарегистрированы?</a> {% endcomment %}
 </body>
 </html>
